@@ -3,12 +3,19 @@ body {
     text-align: center;
 }
 
-.title, ul, p {
+.title, ul, p, a:link, a:visited {
     color: #fff;
 }
 
-li {
+p {
+    text-align: justify;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+li, p {
     list-style-type: none;
+    font-size: large;
 }
 
 #role {
@@ -21,4 +28,23 @@ li {
 
 #non-cast, #cast {
     flex: 1;
+}
+
+#links {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0.5rem;
+    display: flex;
+}
+
+a {
+    flex: 1;
+}
+
+.item {
+    text-align: center;
+}
+
+#play-button {
+    padding-bottom: 1.5rem;
 }
